@@ -118,14 +118,20 @@ const Resource = () => {
   }
 }
 
-//Upgrade Object Class
+//Upgrade Object Class into its own constructor class
 var upgrade = {}
 
-
-class Resource = {
-  constuctor() {
-
+class Resource {
+  constuctor(name, button) {
+    this.name = name //String name
+    this.amount = 0 //Self explanitory
+    this.button = button //Bind button class here, is this even possible?
+    this.rate = 0 //Upgraded rate per tick
   }
-
-
+  //Binds to click function
+  click() {
+    this.amount += 1
+  }
 }
+
+//resource instantiation - Load all resource class objects
