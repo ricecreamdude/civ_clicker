@@ -1,0 +1,23 @@
+{
+  "name": "civ_clicker",
+  "version": "1.0.0",
+  "description": "Clicker game to test basic use of data structures",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricecreamdude/civ_clicker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricecreamdude/civ_clicker/issues"
+  },
+  "homepage": "https://github.com/ricecreamdude/civ_clicker#readme"
+}
