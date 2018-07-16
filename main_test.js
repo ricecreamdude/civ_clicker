@@ -120,3 +120,12 @@ const Resource = () => {
 
 //Upgrade Object Class
 var upgrade = {}
+
+
+class Resource = {
+  constuctor() {
+
+  }
+
+
+}

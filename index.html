@@ -14,27 +14,31 @@
       <p class="resourceTitle">
         Food: <span id="foodCount">0</span>  ( +<span id="farmerRate">0</span> Food/tick )
       </p>
+      <div class="resourceButton">
+        <button type="button" name="foodButton" id="foodButton" onClick="reFood.click()">Collect Food</button>
+      </div>
     </div>
     <!-- Resource Button -->
-    <div class="resourceButton">
-      <button type="button" name="foodButton" id="foodButton" onClick="reFood.click()">Collect Food</button>
-    </div>
+
     <!-- Buy More Stuff -->
-    <div>
-      Farmers: <span id="farmerCount">0</span>
-    </div>
-    <div>
-      Buy Farmers:
-      <button type="button" name="farmerButton" id="" onClick="reFarmer.buy()">
-        <span id="farmerCost">5</span> Food
-      </button>
+    <div class="farmerDisplay">
+      <div>
+        Farmers: <span id="farmerCount">0</span>
+      </div>
+      <div>
+        Buy Farmers:
+        <button type="button" name="farmerButton" id="" onClick="reFarmer.buy()">
+          <span id="farmerCost">5</span> Food
+        </button>
+      </div>
     </div>
 
     <!--Upgrades -->
-    <div class="">
-      
-    </div>
+    <div class="upgradeDisplay">
+      <div class="">
 
+      </div>
+    </div>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
